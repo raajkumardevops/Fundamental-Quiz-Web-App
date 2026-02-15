@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Result | Fundamental Quiz App</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-dark text-light">
+
+  <div class="container min-vh-100 d-flex justify-content-center align-items-center">
+
+    <div class="card bg-secondary text-light p-4 text-center" style="max-width: 500px; width: 100%;">
+
+      <h2 class="mb-3">Quiz Result</h2>
+
+      <p id="topicText" class="mb-2"></p>
+      <p id="totalText"></p>
+      <p id="correctText"></p>
+      <p id="wrongText"></p>
+
+      <h4 id="scoreText" class="mt-3"></h4>
+
+      <div class="d-flex justify-content-between mt-4">
+        <button id="restartBtn" class="btn btn-warning">
+          Restart
+        </button>
+        <button id="homeBtn" class="btn btn-light">
+          Home
+        </button>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="js/result.js"></script>
+</body>
+</html>

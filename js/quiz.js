@@ -173,6 +173,9 @@ nextBtn.addEventListener("click", () => {
     currentQuestionIndex++;
     saveProgress();
     renderQuestion();
+  }else {
+    // Quiz finished
+    window.location.href = "result.html";
   }
 });
 
